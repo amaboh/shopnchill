@@ -7,7 +7,7 @@ const coffeeActions = require('./features/coffee/coffeSlice').coffeeActions
 
 console.log('Initial state', store.getState())
 
-const unsubscribe = store.subscribe(()=> {})
+const unsubscribe = store.subscribe(()=> {console.log('update state', store.getState())})
 
 store.dispatch(cakeActions.ordered())
 store.dispatch(cakeActions.ordered())
