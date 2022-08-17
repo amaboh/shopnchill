@@ -1,0 +1,23 @@
+{
+  "name": "shopnchill",
+  "version": "1.0.0",
+  "description": "A mini coffee shop app based on redux toolkit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amaboh/shopnchill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amaboh/shopnchill/issues"
+  },
+  "homepage": "https://github.com/amaboh/shopnchill#readme",
+  "dependencies": {
+    "react-redux": "^8.0.2"
+  }
+}

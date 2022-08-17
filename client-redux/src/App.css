@@ -1,0 +1,14 @@
+.container{
+    width: 906px;
+
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    max-width: 406px;
+    margin:auto;
+    
+
+   
+}
