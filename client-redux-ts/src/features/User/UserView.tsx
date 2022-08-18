@@ -16,7 +16,7 @@ const UserView = () => {
       {!user.loading && user.error ? <div>Error :{user.error}</div> : null}
       {!user.loading && user.users.length ? (
         <ul>
-          {user.users.map((user) => (
+          {user.users.map((user:any) => (
             <li key={user.id}>{user.name}</li>
           ))}
         </ul>
